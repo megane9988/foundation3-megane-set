@@ -1,0 +1,23 @@
+// WordPress need
+.wp-caption,
+.wp-caption-text,
+.gallery-caption,
+.entry-caption,
+.bypostauthor,
+.sticky
+{
+	max-width: 100%;
+}
+.alignleft {
+	float: left;
+	margin-right: 10px;
+}
+.alignright {
+	float: right;
+	margin-left: 10px;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

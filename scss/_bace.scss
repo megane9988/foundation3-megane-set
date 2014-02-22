@@ -1,0 +1,30 @@
+*{
+		@include box-sizing(border-box);
+		word-break: break-all;
+}
+img {
+		max-width: 100% !important;
+		height: auto;
+}
+embed,iframe {
+	max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:lighten( $body-font-color, 15% );
+	font-weight: normal;
+}
+.full{
+	width: 100%; 
+}
+.mb{
+	margin-bottom: 20px;
+}
+.np{
+	padding: 0;
+}
+img.left{
+	margin-right: 10px;
+}
+img.right{
+	margin-left: 10px;
+}
